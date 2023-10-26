@@ -874,7 +874,8 @@ blockquote {
   background: #f4f4f4;
   padding: 2px 5px;
   background-color: #510896;
-  color: #f3f6f4;  
+  color: #f3f6f4;    
+    border-radius: 15px 15px 15px 15px;  
 }
 
 .tag-list li a:hover {
