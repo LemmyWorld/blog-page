@@ -15,7 +15,8 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #97d5de;
+  background-color: #c4f2fe;  
+  color: #fff;  
 }
 
 .container {
