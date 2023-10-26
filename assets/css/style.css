@@ -18,7 +18,9 @@ body {
   color: #97d5de;
 }
 
-
+.container {
+ background-color: #20124d;
+}   
 
 p,
 .paragraph {
