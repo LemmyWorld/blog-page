@@ -16,7 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   background-color: #20124d;  
-  color: #fff;  
+  color: #6fa8dc;  
 }
 
 .container {
@@ -42,6 +42,7 @@ h6 {
   font-family: "Archivo", serif;
   font-weight: 600;
   line-height: 1.2;
+  background-color: transparent;  
 }
 
 h1,
