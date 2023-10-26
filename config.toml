@@ -1,7 +1,7 @@
 # default config
 baseurl = "https://blog.lemmy.world/"
 languageCode = "en-us"
-title = "Lemmy World Blog"
+title = "Lemmy.World Blog"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
