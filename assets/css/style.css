@@ -23,6 +23,10 @@ body {
  background-color: #20124d;
 }    
 
+.text-center pb-3 {
+ background-color: #20124d;
+}    
+
 .search-query {
  background-color: #b4a7d6;
  border-radius: 15px 15px 15px 15px;
