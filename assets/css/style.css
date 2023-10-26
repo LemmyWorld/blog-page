@@ -384,11 +384,13 @@ a.text-dark:hover {
 }
 
 .bg-primary {
-  background: #EEEEEC !important;
+   background-color: #20124d;
+ !important;
 }
 
 .bg-secondary {
-  background: #D3D7CF !important;
+ background-color: #20124d;
+ !important;
 }
 
 .text-primary {
