@@ -272,10 +272,10 @@ select:focus {
 }
 
 a:hover {
-  color: #2B90D9;
+  color: #ead1dc;
 }
 a.text-dark:hover {
-  color: #2B90D9 !important;
+  color: #ead1dc !important;
 }
 
 .slick-slide {
@@ -350,7 +350,7 @@ a.text-dark:hover {
 }
 
 .text-color {
-  color: #585757;
+  color: #cfe2f3;
 }
 
 .text-dark {
