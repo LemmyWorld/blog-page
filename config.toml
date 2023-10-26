@@ -1,52 +1,93 @@
-baseURL = 'https://team.lemmy.world/'
-languageCode = 'en-us'
-title = 'Lemmy.World Team'
+# default config
+baseurl = "https://blog.lemmy.world/"
+languageCode = "en-us"
+title = "Lemmy World Blog"
+theme = "parsa-hugo"
+summaryLength = "10"
+paginate = 6
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+# navigation
 
 
-# This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
-defaultContentLanguage = "en"
-
-# The name of this wonderful theme ;-).
-theme = "hugo-scroll"
-[frontmatter]
-date = [":git" ,"date", "publishDate", "lastmod"]
-# Theme-specific variables `.Site.Params.myParamName`
+# deult parameter
 [params]
-    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon.png"
+logo = "images/logo.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "1"
+# Meta data
+description = "This is meta description"
+# Preloader
+preloader = true
+# search
+search = true
+# about author
+author = "Lemmy World"
+author_image = "images/banner-img.png"
+bio = "BIO"
+# Contact info
+email = "info@lemmy.world"
+# Contact Form Action
+contact_form_action = "#"
+# copyright
+copyright = "[Page History - GitHub](https://github.com/LemmyWorld/blog-page/commits/main)"
 
-    # These "images" are used for the structured data templates. This will show up, when
-    # services like Twitter or Slack want to generate a preview of a link to your site.
-    # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
-    # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
 
-    # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
-    # Ideal images are homogenous around the centre and contrasting to the text.
-    # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
-    # see _index.md header_headline and header_subheadline
-    title_guard = true
+# social site
 
-    # Another "title" :-). This one is used as the site_name on the Hugo's internal
-    # opengraph structured data template.
-    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title =  "Lemmy World Meet the Team"
+[[params.social]]
+icon = "ti-sharethis"
+link = "https://mastodon.world/@LemmyWorld"
 
-    # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Lemmy World Meet the Team"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/lemmyworld/"
 
-    # A "copyright"-line to be added at the bottom of the page.
-    # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "©2023 LemmyWorld <a href='https://github.com/LemmyWorld/team-page/releases'>Page History</a>"
-
-    # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = true
-
-    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
-
-    [params.meta]
-        keywords = "lemmy, world, team, contact"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/LemmyWorld/"
