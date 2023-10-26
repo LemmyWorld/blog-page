@@ -26,6 +26,7 @@ p,
   font-size: 15px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
+  color: #97d5de;
 }
 
 h1,
@@ -43,6 +44,7 @@ h6 {
 h1,
 .h1 {
   font-size: 80px;
+  color: #97d5de;
 }
 
 @media (max-width: 767px) {
@@ -55,18 +57,21 @@ h1,
 h2,
 .h2 {
   font-size: 50px;
+  color: #97d5de;  
 }
 
 @media (max-width: 767px) {
   h2,
   .h2 {
     font-size: 45px;
+    color: #97d5de; 
   }
 }
 
 h3,
 .h3 {
   font-size: 40px;
+  color: #97d5de;  
 }
 
 h4,
@@ -77,11 +82,13 @@ h4,
 h5,
 .h5 {
   font-size: 20px;
+  color: #97d5de;  
 }
 
 h6,
 .h6 {
   font-size: 16px;
+  color: #97d5de;  
 }
 
 /* Button style */
@@ -147,6 +154,7 @@ h6,
 body {
   background-color: #674ea7;
   overflow-x: hidden;
+  color: #b8acd1;  
 }
 
 ::-moz-selection {
