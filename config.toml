@@ -48,16 +48,20 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 
 # navigation
-
+[[menu.main]]
+name = "Homepage"
+url = ""
+weight = 1
+hasChildren = false
 
 # deult parameter
 [params]
 logo = "images/logo.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
-layout = "1"
+layout = "2"
 # Meta data
-description = "This is meta description"
+description = "A Lemmy World Blog"
 # Preloader
 preloader = true
 # search
@@ -65,7 +69,7 @@ search = true
 # about author
 author = "Lemmy World"
 author_image = "images/banner-img.png"
-bio = "BIO"
+bio = "Lemmy World is made up of a diverse group of individuals who are all passionate about not only seeing our site grow, but also see the future in a more open and free social media platform."
 # Contact info
 email = "info@lemmy.world"
 # Contact Form Action
