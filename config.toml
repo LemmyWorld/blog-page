@@ -61,7 +61,7 @@ home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "2"
 # Meta data
-description = "A Lemmy World Blog"
+description = "A Lemmy.World Blog"
 # Preloader
 preloader = true
 # search
@@ -69,7 +69,6 @@ search = true
 # about author
 author = "Lemmy World"
 author_image = "images/logo.png"
-bio = "Lemmy World is made up of a diverse group of individuals who are all passionate about not only seeing our site grow, but also see the future in a more open and free social media platform."
 # Contact info
 email = "info@lemmy.world"
 # Contact Form Action
@@ -88,9 +87,13 @@ expire_days = 2
 icon = "ti-sharethis"
 link = "https://mastodon.world/@LemmyWorld"
 
+<br>
+
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/lemmyworld/"
+
+<br>
 
 [[params.social]]
 icon = "ti-github"
