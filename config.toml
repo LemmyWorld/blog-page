@@ -59,7 +59,7 @@ hasChildren = false
 logo = "images/favicon.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
-layout = "2"
+layout = "1"
 # Meta data
 description = "A Lemmy.World Blog"
 # Preloader
