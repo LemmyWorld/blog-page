@@ -6,7 +6,7 @@ theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "G-EC98M9DTPM" # example : UA-123-45
 
 # output
 [outputs]
@@ -56,7 +56,7 @@ hasChildren = false
 
 # deult parameter
 [params]
-logo = "images/logo.png"
+logo = "images/favicon.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "2"
@@ -68,7 +68,7 @@ preloader = true
 search = true
 # about author
 author = "Lemmy World"
-author_image = "images/banner-img.png"
+author_image = "images/logo.png"
 bio = "Lemmy World is made up of a diverse group of individuals who are all passionate about not only seeing our site grow, but also see the future in a more open and free social media platform."
 # Contact info
 email = "info@lemmy.world"
