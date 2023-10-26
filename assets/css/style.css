@@ -155,7 +155,7 @@ h6,
 }
 
 body {
-  background-color: #674ea7;
+  background-color: #20124d;
   overflow-x: hidden;
   color: #b8acd1;  
 }
@@ -177,7 +177,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #510896;
+  background-color: #20124d;
   z-index: 999;
   display: flex;
   align-items: center;
@@ -301,16 +301,18 @@ a.text-dark:hover {
 .section {
   padding-top: 90px;
   padding-bottom: 90px;
+  background-color: #20124d;  
 }
 
 .section-sm {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #20124d;  
 }
 
 .section-title {
   margin-bottom: 30px;
-  background-color: #c4f2fe;  
+  background-color: #20124d;  
 }
 
 .bg-cover {
