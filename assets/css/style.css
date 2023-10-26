@@ -40,6 +40,10 @@ body {
  background-color: #20124d;
 }   
 
+.input {
+ background-color: #20124d;
+}       
+
 p,
 .paragraph {
   font-weight: 400;
