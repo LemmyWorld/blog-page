@@ -11,6 +11,7 @@ tags:
   - Hello World
   - Community Building
   - First Post
+  - Smiling
 ---
 
 This is a basic Lemmy.World blog post. It is our own lorem ipsum, with no superior quality. It just is, and it’s familiar. It’s familiar, because we just made it so, declared by pure badassery. Because it’s familiar, it’s enjoyable to experience. It’s a train of thought, an enjoyment of the words and the flow, maybe a placeholder maybe not, it’s been 5 months since Antik had pot. We deny, we accept, we read, but we may ignore; maybe a lot. No offense, we might be childish, maybe not.
