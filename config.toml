@@ -87,13 +87,10 @@ expire_days = 2
 icon = "ti-sharethis"
 link = "https://mastodon.world/@LemmyWorld"
 
-<br>
-
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/lemmyworld/"
 
-<br>
 
 [[params.social]]
 icon = "ti-github"
