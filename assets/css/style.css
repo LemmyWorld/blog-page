@@ -19,6 +19,10 @@ body {
   color: #6fa8dc;  
 }
 
+.col-lg-12 {
+ background-color: #20124d;
+}    
+
 .section bg-secondary {
  background-color: #20124d;
 }    
