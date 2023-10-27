@@ -887,6 +887,8 @@ blockquote {
 
 .search-box {
   position: relative;
+  background-color: #ead1dc;
+  border-radius: 15px 15px 15px 15px; 
 }
 
 .search-box i {
@@ -894,6 +896,8 @@ blockquote {
   left: 0;
   top: 25px;
   color: #767575;
+  background-color: #ead1dc;
+  border-radius: 15px 15px 15px 15px  
 }
 
 .post-thumb-sm {
