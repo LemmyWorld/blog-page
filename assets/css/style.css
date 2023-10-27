@@ -459,17 +459,21 @@ a.text-dark:hover {
 .form-control {
   border: 0;
   border-bottom: 1px solid #ababab;
-  border-radius: 0;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #ead1dc;  
 }
 
 .form-control:focus {
   outline: 0;
   box-shadow: none;
   border-color: #EEEEEC;
+  background-color: #ead1dc;  
 }
 
 textarea.form-control {
   height: 150px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #ead1dc;  
 }
 
 .navigation {
@@ -483,7 +487,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   transition: all 0.4s ease-in-out;
-  padding: 10px 40px;
+  padding: 8px 30px;
   background-color: #510896;
 }
 
